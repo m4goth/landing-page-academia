@@ -15,7 +15,7 @@ html {
     width: 100vw;
     height: 100vh;
     font-size: 62.5%;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Lato', sans-serif;
 }
 
@@ -26,6 +26,7 @@ body {
     background-position-y: 0px;
     background-repeat: no-repeat;
 }
+
 
 /* Menu - Header - NavBar */
 
@@ -64,7 +65,6 @@ header {
     position: relative;
 }
 
-
 .menu-content .list-itens a:before {
     content: ' ';
     position: absolute;
@@ -72,13 +72,14 @@ header {
     left: 0px;
     width: 0px;
     height: 1px;
-    background-color: rgb(251, 255, 0);
-    transition: all 1.5s ease; 
+    background-color: rgb(255, 102, 0);
+    transition: all 1.5s ease;
 }
 
 .menu-content .list-itens a:hover:before {
     width: 100%;
 }
+
 
 /* Centro - Conteudo Principal */
 
@@ -96,6 +97,7 @@ main {
     align-items: center;
 }
 
+
 /* Textos conteudo principal */
 
 .primary-text {
@@ -108,12 +110,12 @@ main {
 .second-text {
     margin-bottom: 7rem;
     font-size: 2rem;
-    color: rgb(165, 165, 165);
+    color: rgb(253, 101, 0);
     text-transform: uppercase;
 }
 
-/* Botões */
 
+/* Botões */
 
 .btns {
     display: flex;
@@ -137,7 +139,7 @@ main {
 }
 
 .btns button:hover {
-    color: rgb(251, 255, 0);
+    color: rgb(255, 102, 0);
     border: none;
 }
 
