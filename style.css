@@ -105,6 +105,7 @@ main {
     font-size: 5rem;
     margin-bottom: 2rem;
     text-align: center;
+    text-decoration: none;
 }
 
 .second-text {
@@ -112,6 +113,7 @@ main {
     font-size: 2rem;
     color: rgb(253, 101, 0);
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 
@@ -121,6 +123,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 20px;
+    text-decoration: none;
 }
 
 .btns button {
@@ -136,11 +139,13 @@ main {
     border-radius: 20px;
     position: relative;
     transition: 1.5s;
+    text-decoration: none;
 }
 
 .btns button:hover {
     color: rgb(255, 102, 0);
     border: none;
+    text-decoration: none;
 }
 
 .btns button:before {
@@ -154,8 +159,10 @@ main {
     background-color: rgb(61, 61, 61);
     z-index: -1;
     transition: 1s;
+    text-decoration: none;
 }
 
 .btns button:hover:before {
     width: 100%;
+    text-decoration: none;
 }
